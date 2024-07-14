@@ -1,0 +1,120 @@
+:root {
+    --main-font: "Comfortaa", sans-serif;
+    --main-heading: "Nerko One", cursive;
+    --main-color: #272b30;
+    --seconde-color: #32383e;
+}
+
+body {
+    scroll-behavior: smooth;
+    transition: all 0.5 linear;
+}
+
+input::placeholder {
+    color: #f1f1f1 !important;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #f1f1f1;
+}
+
+.form-control {
+    border-color: #f1f1f1;
+}
+
+
+/* --------------------- Start Sidbar Section ---------------------  */
+
+#sidebar {
+    z-index: 99999;
+}
+
+#sidebar .content .text .links li {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#sidebar .icons .image img {
+    width: 60px;
+}
+
+#sidebar .icons div,
+#sidebar .icons .links svg,
+#sidebar .content .text .links li {
+    cursor: pointer;
+}
+
+/* --------------------- Start Sidbar Section ---------------------  */
+
+
+
+/* --------------------- Start mealContainer Section ---------------------  */
+
+
+#mealContainer .meal .meal-layer {
+    transition: all 0.5s linear;
+    cursor: pointer;
+    padding: 150px;
+    background-color: #ffff;
+    top: 110%;
+}
+
+#mealContainer .meal:hover .meal-layer {
+    top: 0;
+}
+
+
+/* /////////////////////////////////////////////////////////// */
+
+#mealContainer .meal .meal-layer {
+    transition: all 0.5s linear;
+    cursor: pointer;
+    padding: 150px;
+    background-color: #ffff;
+    top: 200%;
+}
+
+#mealContainer .meal:hover .meal-layer {
+    top: 0;
+}
+
+
+#mealContainer .mealArea {
+    cursor: pointer;
+}
+
+
+/* /////////////////////////////////////////////////////////// */
+
+
+
+/* --------------------- End mealContainer Section ---------------------  */
+
+
+.loading-screen {
+    z-index: 999999999;
+    display: flex;
+}
+
+.inner-loading-screen {
+    position: absolu te;
+    z-index: 999999;
+    display: flex;
+}
+
+
+.contact input::placeholder {
+    color: #333 !important;
+}
+
+
+.contact .submitBtn {
+    color: #fff;
+    transition: all 0.5s linear;
+}
+
+
+.contact .submitBtn:hover {
+    color: #fff;
+}
